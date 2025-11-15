@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+
+        <section id="actionbtn">
+            <button id="showBtn">Show Books</button>
+            <button id="addBtn">Add Book</button>
+        </section>
+
+        <section id="addContainer">
+            <h1>Add New Books</h1>
+            <input type="text" id="bookTitle" placeholder="Book Title" required>
+            <input type="text" id="bookAuthor" placeholder="Book Author" required>
+            <input type="number" id="bookYear" placeholder="Publication Year" required>
+            <button type="submit" id="submit" >Add Book</button>
+        </section>
+        
+        <div id="storebook">
+            <div id="book">
+                <h1>Available Books</h1>
+                <ul id="bookList"></ul>
+                <button id="closeBtn">Close</button>
+            </div>
+        </div>
+        <p>Book Management</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
